@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(171, 129, 225);
+}
+.box-container {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+.input {
+  padding: 40px;
+  height: 30px;
+  width: 30px;
+  background-color: antiquewhite;
+  border: 1px solid;
+  font-size: 30px;
+}
+.modal {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hide-modal {
+  display: none;
+}
+.button {
+  background-color: rgb(43, 226, 122);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+span {
+  font-size: 40px;
+}
